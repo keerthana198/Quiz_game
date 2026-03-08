@@ -1,0 +1,72 @@
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("a.jpg");
+    background-color:#c3e1f3;
+    text-align:center;
+    font-size: 20px;
+}
+h1{
+    font-family: Algerian;
+    font-size:60px;
+    color:rgb(232, 241, 249);
+     letter-spacing:2px;
+}
+.container{
+    background:rgb(1, 25, 112);
+    width:500px;
+    margin:auto;
+    padding:10px;
+    margin-top:10px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+button{
+    display:block;
+    width:100%;
+    margin:10px 0;
+    padding:10px;
+    font-size:16px;
+    cursor:pointer;
+    border-radius:5px;
+    border:none;
+    background:#3498db;
+    color:white;
+}
+.correct{
+    background-color:green;
+    color:white;
+}
+.wrong{
+    background-color:red;
+    color:white;
+}
+button:hover{
+    background:#2980b9;
+}
+#nextBtn{
+    background:#4a027e;
+}
+#nextBtn:hover{
+    background: #a267fb;
+}
+#endBtn{
+    background-color: #4a027e;
+}
+#endBtn:hover{
+    background: #a267fb;
+}
+#result button{
+    background:#4a027e;
+    padding:12px 20px;
+    font-size:18px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    color:rgb(248, 248, 249);
+}
+
+#result button:hover{
+    background:#a267fb;
+}
